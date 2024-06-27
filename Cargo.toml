@@ -1,0 +1,11 @@
+[package]
+name = "Rust_DDS"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustdds = "0.10.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+
+
